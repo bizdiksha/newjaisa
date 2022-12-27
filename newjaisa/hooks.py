@@ -103,6 +103,12 @@ app_license = "MIT"
 #	}
 # }
 
+doc_events = {
+	"Stock Entry": {
+		"validate": "newjaisa.hook_events.stock_entry.adjust_item_amount"
+	}
+}
+
 # Scheduled Tasks
 # ---------------
 
