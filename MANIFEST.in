@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include newjaisa *.css
+recursive-include newjaisa *.csv
+recursive-include newjaisa *.html
+recursive-include newjaisa *.ico
+recursive-include newjaisa *.js
+recursive-include newjaisa *.json
+recursive-include newjaisa *.md
+recursive-include newjaisa *.png
+recursive-include newjaisa *.py
+recursive-include newjaisa *.svg
+recursive-include newjaisa *.txt
+recursive-exclude newjaisa *.pyc
